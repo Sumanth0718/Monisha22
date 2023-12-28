@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\VMAdmin\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\VMAdmin\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\Microsoft.TestPlatform.TestHost.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\Microsoft.TestPlatform.TestHost.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\17.1.0\build\netstandard1.0\Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\17.1.0\build\netstandard1.0\Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.win-x64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.win-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.win-x64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.win-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.win-arm64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.win-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.win-arm64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.win-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.osx-x64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.osx-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.osx-x64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.osx-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.osx-arm64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.osx-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.osx-arm64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.osx-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-x64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.linux-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-x64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.linux-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.linux-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm64\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.linux-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.linux-arm.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm\8.7.1\buildTransitive\IKVM.MSBuild.Tools.runtime.linux-arm.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild\8.7.1\buildTransitive\IKVM.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild\8.7.1\buildTransitive\IKVM.MSBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.win-x86\8.7.1\buildTransitive\IKVM.Image.runtime.win-x86.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.win-x86\8.7.1\buildTransitive\IKVM.Image.runtime.win-x86.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.win-x64\8.7.1\buildTransitive\IKVM.Image.runtime.win-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.win-x64\8.7.1\buildTransitive\IKVM.Image.runtime.win-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.win-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.win-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.win-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.win-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.osx-x64\8.7.1\buildTransitive\IKVM.Image.runtime.osx-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.osx-x64\8.7.1\buildTransitive\IKVM.Image.runtime.osx-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.osx-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.osx-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.osx-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.osx-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.linux-x64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.linux-x64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.linux-musl-x64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-musl-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.linux-musl-x64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-musl-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.linux-musl-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-musl-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.linux-musl-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-musl-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.linux-musl-arm\8.7.1\buildTransitive\IKVM.Image.runtime.linux-musl-arm.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.linux-musl-arm\8.7.1\buildTransitive\IKVM.Image.runtime.linux-musl-arm.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.linux-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.linux-arm64\8.7.1\buildTransitive\IKVM.Image.runtime.linux-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image.runtime.linux-arm\8.7.1\buildTransitive\IKVM.Image.runtime.linux-arm.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image.runtime.linux-arm\8.7.1\buildTransitive\IKVM.Image.runtime.linux-arm.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image\8.7.1\buildTransitive\IKVM.Image.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image\8.7.1\buildTransitive\IKVM.Image.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm\8.7.1\buildTransitive\IKVM.props" Condition="Exists('$(NuGetPackageRoot)ikvm\8.7.1\buildTransitive\IKVM.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\VMAdmin\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\VMAdmin\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+  </PropertyGroup>
+</Project>
